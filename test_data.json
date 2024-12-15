@@ -1,0 +1,51 @@
+[
+    {
+        "model": "app.user",
+        "pk": 1,
+        "fields": {
+            "username": "john_doe",
+            "email": "john.doe1@example.com"
+        }
+    },
+    {
+        "model": "app.user",
+        "pk": 2,
+        "fields": {
+            "username": "jane_doe",
+            "email": "jane.doe2@example.com"
+        }
+    },
+    {
+        "model": "app.expense",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "title": "Grocery Shopping",
+            "amount": 150.75,
+            "date": "2024-12-01",
+            "category": "Food"
+        }
+    },
+    {
+        "model": "app.expense",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "title": "Flight to NYC",
+            "amount": 500.00,
+            "date": "2024-12-05",
+            "category": "Travel"
+        }
+    },
+    {
+        "model": "app.expense",
+        "pk": 3,
+        "fields": {
+            "user": 2,
+            "title": "Utility Bill",
+            "amount": 200.00,
+            "date": "2024-12-10",
+            "category": "Utilities"
+        }
+    }
+]
