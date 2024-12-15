@@ -1,6 +1,6 @@
 # Expense Tracker API
 
-This is a Django-based API for tracking expenses, allowing users to categorize and view their expenses based on different filters such as date range and category summary. The project uses Docker for easy deployment and management, and includes tests, migrations, and sample data for a complete setup.
+This is a Django-based API for tracking expenses, allowing users to categorize and view their expenses based on different filters such as date range and category summary. The project includes tests, migrations, and sample data for a complete setup.
 
 ## Features
 
